@@ -1,4 +1,4 @@
-const isEmpty = (arr) => {
+export const isEmpty = (arr) => {
   if (arr !== undefined && arr !== null && arr.length === 0) {
     return true;
   } else {
@@ -6,9 +6,6 @@ const isEmpty = (arr) => {
   }
 }
 
-const logError = (message) => {
+export const logError = (message) => {
   console.log('Oops! ' + message);
 }
-
-// named export
-export {isEmpty, logError}

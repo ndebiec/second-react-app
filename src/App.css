@@ -2,14 +2,6 @@
   text-align: center;
 }
 
-.AuctionTile {
-  margin: 16px;
-  padding: 16px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px #ccc;
-}
-
 .Allogo {
   font-size: xx-large;
   color: darkorange;
